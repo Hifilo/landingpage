@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
 
 body {
 	background-color: whitesmoke;
@@ -146,7 +146,7 @@ section {
 h1.texthero {
 	color: #f9faf8;
 	font-size: 48px;
-	font-weight: extra-bold;
+	font-weight: 900;
 	margin: 0;
 }
 p.textsecondary {
@@ -162,7 +162,7 @@ p.textsecondary {
 .textinfo {
 	color: #1f2937;
 	font-size: 36px;
-	font-weight: extra-bold;
+	font-weight: 900;
 }
 .textquote {
 	color: #1f2937;
