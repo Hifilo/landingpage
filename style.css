@@ -9,8 +9,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	font-family: Roboto, sans-serif;
-	border-color: gray;
-	border-style: dotted;
 }
 
 p {
@@ -243,32 +241,46 @@ section {
 	margin: 0px;
 }
 .cta .imagecontainer {
-	width: max-content;
+	width: 800px;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
 	border-radius: 8px;
+	gap: 48px;
+	margin: 48px;
+	padding: 24px 64px;
 }
 
 .cta .container {
-	width: 800px;
+	width: max-content;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
 	margin: 0;
-	padding: 24px 0;
-	gap: 48px;
+	padding: 0px 0px;
+	gap: 0px;
 }
 
 .cta button {
 	border-style: solid;
-	margin: 0;
+	margin: 0px;
+	border-width: 1px;
 }
 
 h3 {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 }
 .cta p {
-	margin: -20px 0px;
+	margin: 0px;
+	padding: 0px;
+}
+
+footer {
+	margin: 10px;
+	height: 10vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
