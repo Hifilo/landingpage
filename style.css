@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
 
 body {
-	background-color: whitesmoke;
+	background-color: #ffffff;
 	width: 100vw;
 	height: 100vh;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	font-family: Roboto, sans-serif;
+	border-color: gray;
+	border-style: dotted;
+}
+
+p {
+	padding: 0;
+	margin: 0;
 }
 
 .container {
@@ -34,7 +40,7 @@ header {
 
 .logo {
 	font-size: 24px;
-	color: #e5e7eb;
+	color: #f9faf8;
 	/* border: purple;
 	border-style: dashed; */
 }
@@ -56,7 +62,7 @@ ul {
 nav {
 	margin: 0;
 	/* display: flex;
-	flex-direction: row;
+	flex-direction: row;#33be21
 	justify-content: space-between;
 	align-items: flex-start; */
 }
@@ -122,51 +128,147 @@ button {
 	border-style: solid; */
 }
 
-section {
-	margin: 0;
-}
-.primary {
-	font-size: 48px;
-	color: #f9faf8;
-}
-
 /* background colors */
 
-.background1 {
+.bg1 {
 	background-color: #1f2937;
 }
-.background2 {
+.bg2 {
 	background-color: #3882f6;
 }
-.backgound3 {
+.bg3 {
 	background-color: #e5e7eb;
+}
+.whitebg {
+	background-color: white;
+}
+.col1 {
+	color: #1f2937;
+}
+.col2 {
+	color: #3882f6;
+}
+.col3 {
+	color: #e5e7eb;
+}
+.colwhite {
+	color: white;
 }
 
 /* text styles */
+
 h1.texthero {
-	color: #f9faf8;
 	font-size: 48px;
 	font-weight: 900;
 	margin: 0;
 }
-p.textsecondary {
-	color: #e5e7eb;
+p.text2 {
 	font-size: 18px;
-	padding-bottom: 8px;
 	margin: 0;
+	padding: 0;
 }
+
 .textlogo {
 	color: #f9faf8;
 	font-size: 24px;
 }
 .textinfo {
-	color: #1f2937;
 	font-size: 36px;
 	font-weight: 900;
 }
 .textquote {
-	color: #1f2937;
 	font-size: 36px;
 	font-style: italic;
-	font-weight: light;
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+}
+
+section {
+	/* padding: 40px 20px; */
+	/* height: 300px; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.quote {
+	margin: 0;
+	justify-content: space-around;
+}
+.quote .container {
+	padding: 10% 0;
+	margin: 0 15%;
+}
+.quote h5 {
+	text-align: right;
+	font-weight: 800;
+	padding: 0;
+}
+.imagecontainer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.imagecontainer p {
+	text-align: center;
+	padding-top: 8px;
+}
+
+.imagecontainer .vert {
+	width: min-content;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.illust2 {
+	width: 150px;
+	height: 150px;
+	border-radius: 16px;
+	border-style: solid;
+	border-color: #3882f6;
+}
+
+.cta {
+	margin: 0px;
+}
+.cta .imagecontainer {
+	width: max-content;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 8px;
+}
+
+.cta .container {
+	width: 800px;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+	margin: 0;
+	padding: 24px 0;
+	gap: 48px;
+}
+
+.cta button {
+	border-style: solid;
+	margin: 0;
+}
+
+h3 {
+	margin: 0;
+	padding: 0;
+}
+.cta p {
+	margin: -20px 0px;
 }
